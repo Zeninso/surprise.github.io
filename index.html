@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 3rd Anniversary!</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 top-0 glass-nav" style="z-index: 1030;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger fw-bold" href="#home">
+                <span class="navbar-text">💕 Happy Anniversary 💕</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" href="#memories">Memories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" href="#love">Why I Love You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" href="#song">Our Song</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-gradient min-vh-100" style="padding-top: 80px;">
+        <!-- Home Section -->
+        <section id="home" class="py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 px-4">
+                    <div class="card shadow-lg border-0 rounded-4 p-4 bg-transparent section-card">
+                        <div class="card-body text-center">
+                            <header class="mb-4">
+                                <h1 class="title display-4 text-danger mb-3">Happy 3rd Anniversary Babi!</h1>
+                                <p class="subtitle lead text-muted">Celebrating love, laughter, and endless memories</p>
+                            </header>
+                            <div class="message mb-4">
+                                <p id="typed-message" class="fs-5 mb-4"></p>
+                                <button id="celebrate-btn" class="btn btn-lg celebrate-btn mb-4">Click me!</button>
+                            </div>
+                            <div class="hearts d-flex justify-content-center gap-3 mb-4">
+                                <div class="heart"></div>
+                                <div class="heart"></div>
+                                <div class="heart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section id="memories" class="py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 px-4">
+                    <div class="card shadow-lg border-0 rounded-4 p-4 bg-transparent section-card">
+                        <div class="card-body text-center">
+                            <h3 class="text-center mb-3">Our Memories</h3>
+                            <div id="memoryCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="pics/date.png.jfif" class="d-block w-100 rounded" alt="Date">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/trips.png.jfif" class="d-block w-100 rounded" alt="Trips with You">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/happy moments.png.jfif" class="d-block w-100 rounded" alt="Happy Moment">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/04799684-bc7f-46b8-9454-81327d225b17.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/674ca377-bbcb-4f5e-8640-c5d2fd2dea48.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/8b831978-2c25-4254-816a-37271c863b37.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/9fc38b5b-1466-40f3-8f58-47559a9c44e4.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/a54b249f-5092-4986-8331-d2bbd0e8351b.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/a8093a87-67c5-464d-955b-7eebd76a32a3.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/b138982f-cf6e-4525-b66b-1b47bc8c38ba.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/b9bba846-b44c-4ae8-8f95-c4f5b1259b06.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/ba23513b-2e82-4c92-ab79-c2a8136a0e65.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="pics/bedb6a4d-6313-4bc6-8334-85df5018554d.jfif" class="d-block w-100 rounded" alt="Memory">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#memoryCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#memoryCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Section -->
+        <section id="love" class="py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 px-4">
+                    <div class="card shadow-lg border-0 rounded-4 p-4 bg-transparent section-card">
+                        <div class="card-body text-center">
+                            <h3 class="text-center mb-4 text-danger fw-bold">Why I Love You</h3>
+                            <div class="row g-3">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card h-100 border-danger bg-light love-card">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span style="font-size: 2.5rem;">😊</span>
+                                            </div>
+                                            <h5 class="card-title text-danger fw-bold">Your Smile</h5>
+                                            <p class="card-text">It lights up my world every single day.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card h-100 border-danger bg-light love-card">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span style="font-size: 2.5rem;">💝</span>
+                                            </div>
+                                            <h5 class="card-title text-danger fw-bold">Your Kindness</h5>
+                                            <p class="card-text">You make everyone around you feel special.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card h-100 border-danger bg-light love-card">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span style="font-size: 2.5rem;">🌟</span>
+                                            </div>
+                                            <h5 class="card-title text-danger fw-bold">Our Adventures</h5>
+                                            <p class="card-text">Every moment with you is an adventure I cherish.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4 class="text-center mb-3">Our Love Level</h4>
+                                <div class="progress" style="height: 30px;">
+                                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100% Forever!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Song Section -->
+        <section id="song" class="py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 px-4">
+                    <div class="card shadow-lg border-0 rounded-4 p-4 bg-transparent section-card">
+                        <div class="card-body text-center">
+                            <h5 class="mb-3">Our Song</h5>
+                            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4WgViu9gw3qYOr3iF9OuLG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <p class="mt-2 small text-muted">Click play above to listen to our special song!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-4">
+            <p class="fs-5 text-muted">With all my love ❤️</p>
+        </footer>
+    </div>
+    <!-- Modal for Special Message -->
+    <div class="modal fade" id="specialModal" tabindex="-1" aria-labelledby="specialModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="specialModalLabel">A Special Message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-4">You are my everything, my love, my best friend. Happy Anniversary! 💕</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
